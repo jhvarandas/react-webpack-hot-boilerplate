@@ -1,1 +1,10 @@
-console.log('Hey guys and ladies!!');
+import React from 'react';
+import { render } from 'react-dom';
+
+class App extends React.Component {
+    render() {
+        return <p>Hello World</p>;
+    }
+}
+
+render(<App />, document.getElementById('root'));
